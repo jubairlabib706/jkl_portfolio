@@ -6,7 +6,7 @@ export default function SocialLink({ label, url, className = "" }) {
         title="Placeholder: add the URL in src/data/content.js"
         className={`${className} cursor-default opacity-40`}
       >
-        {label} <sup className="font-mono text-[9px] uppercase">edit</sup>
+        {label} <sup className="font-mono text-[9px] uppercase">soon</sup>
       </span>
     );
   }

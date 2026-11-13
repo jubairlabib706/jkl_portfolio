@@ -52,7 +52,7 @@ export default function Contact() {
           </div>
         ) : (
           <p className={`${emailClass} opacity-40`}>
-            your.email@example.com{" "}
+            jubairlabib706@gmail.com{" "}
             <span className="block font-mono text-[11px] uppercase tracking-[0.25em] text-lamp">
               Placeholder: set links.email in src/data/content.js
             </span>

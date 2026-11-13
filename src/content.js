@@ -10,16 +10,16 @@ export const sections = [
 ];
 
 export const links = {
-  email: "", // e.g. "you@example.com"
-  github: "", // e.g. "https://github.com/your-username"
-  linkedin: "", // e.g. "https://linkedin.com/in/your-handle"
-  other: "", // any other platform URL
+  email: "jubairlabib706@gmail.com", // e.g. "you@example.com"
+  github: "https://github.com/jubairlabib706", // e.g. "https://github.com/your-username"
+  facebook: "https://www.facebook.com/jubair.khan.859573", // e.g. "https://linkedin.com/in/your-handle"
+  other: "Call me at 01994137305", // any other platform URL
   otherLabel: "Other platform",
 };
 
 export const socials = [
   { label: "GitHub", url: links.github },
-  { label: "LinkedIn", url: links.linkedin },
+  { label: "facebook", url: links.facebook },
   { label: links.otherLabel, url: links.other },
 ];
 
@@ -41,25 +41,25 @@ export const practices = ["Programming fundamentals", "Problem-solving", "UI dev
 // Placeholders: replace with real projects. Leave github/demo empty until they exist.
 export const projects = [
   {
-    title: "Your first project",
+    title: "My first project",
     blurb: "Placeholder. Replace this with what the project does and what you learned building it.",
     stack: ["Add stack"],
     github: "",
-    demo: "",
+    demo: "Comming soon",
   },
   {
-    title: "Your second project",
+    title: "My second project",
     blurb: "Placeholder. A short, honest description of a real piece of work goes here.",
     stack: ["Add stack"],
     github: "",
-    demo: "",
+    demo: "Comming soon",
   },
   {
-    title: "Your third project",
+    title: "My third project",
     blurb: "Placeholder. Even a small C or C++ exercise is worth showing if it is real.",
     stack: ["Add stack"],
     github: "",
-    demo: "",
+    demo: "Comming soon",
   },
 ];
 
