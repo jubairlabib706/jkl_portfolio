@@ -110,34 +110,36 @@ export default function Hero() {
       </div>
 
       <figure
-        ref={stage}
-        className="portrait relative mx-auto w-full max-w-sm lg:max-w-none"
-        style={{ transform: "translate3d(0, calc(var(--sy, 0) * -0.06px), 0)" }}
-        data-cursor="view"
-        data-cursor-label="light"
-      >
-        <img
-          src={PORTRAIT}
-          width="720"
-          height="900"
-          fetchPriority="high"
-          decoding="async"
-          alt="Portrait of Jubair Khan Labib, lit from one side against a dark background"
-          className="block h-auto w-full select-none"
-        />
-        <img
-          src={PORTRAIT}
-          width="720"
-          height="900"
-          alt=""
-          aria-hidden="true"
-          className="lamp-layer pointer-events-none absolute inset-0 h-full w-full select-none"
-        />
-        <div className="lamp-ring absolute" aria-hidden="true" />
-        <figcaption className="mt-4 font-mono text-[10px] uppercase tracking-[0.25em] text-dim">
-          Move the light across the shadow
-        </figcaption>
-      </figure>
+     className="portrait relative mx-auto w-full max-w-sm lg:max-w-none"
+     style={{ transform: "translate3d(0, calc(var(--sy, 0) * -0.06px), 0)" }}
+       data-cursor="view"
+       data-cursor-label="light"
+>
+  <div ref={stage} className="relative">
+    <img
+      src={PORTRAIT}
+      width="720"
+      height="900"
+      fetchPriority="high"
+      decoding="async"
+      alt="Portrait of Jubair Khan Labib, lit from one side against a dark background"
+      className="block h-auto w-full select-none"
+    />
+    <img
+      src={PORTRAIT}
+      width="720"
+      height="900"
+      alt=""
+      aria-hidden="true"
+      className="lamp-layer pointer-events-none absolute inset-0 h-full w-full select-none object-cover"
+    />
+    <div className="lamp-ring absolute" aria-hidden="true" />
+  </div>
+
+  <figcaption className="mt-4 font-mono text-[10px] uppercase tracking-[0.25em] text-dim">
+    Move the light across the shadow
+  </figcaption>
+  </figure>
 
       <div className="absolute bottom-8 left-6 flex items-center gap-4 font-mono text-[11px] uppercase tracking-[0.25em] text-dim md:left-12">
         <span className="relative h-12 w-px overflow-hidden bg-line" aria-hidden="true">
